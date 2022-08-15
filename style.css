@@ -15,6 +15,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 .topo {
     background-color: #CF2B2B;
@@ -26,7 +27,6 @@ body {
     font-size: 18px;
     margin: 0 auto;
     padding: 10px 20px;
-    z-index: 2;
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 .topo :nth-child(1) {
@@ -71,6 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 .opcao img {
     width: 144px;
@@ -110,6 +111,7 @@ body {
     font-size: 20px;
     margin: -20px 0px 0px 128px;
     opacity: 0;
+    z-index: 1;
 }
 .ativado {
     opacity: 1;
